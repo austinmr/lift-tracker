@@ -6,6 +6,7 @@ class App extends React.Component {
     return (
     	<div> 
     		<h3> Welcome to the React Stack Starter Kit </h3>
+    		<h4> Laying foundation for lifting tracker application </h4>
     		<p> Begin your project here </p>
     	</div>
     ); 
