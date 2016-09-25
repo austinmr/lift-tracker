@@ -1,5 +1,5 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React, { Component } from 'react';
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
 class App extends React.Component {
   render () {
@@ -10,6 +10,5 @@ class App extends React.Component {
     	</div>
     ); 
   }
-}
-
-render(<App/>, document.getElementById('app'));
+}; 
+export default App; 
